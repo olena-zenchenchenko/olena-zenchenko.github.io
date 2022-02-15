@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="stylesheet"rel=style.css>
-    <title>Carousel Function</title>
+    <title>Carousel Component</title>
 </head>
 <body>
 </body>
@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Image Carousel cheatsheet</title>
+  <title>Carousel Component</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -87,7 +87,7 @@
       <div class="carousel-item my-overlay">
         <img src="image_rubberduck/cat 2.png" class="d-block w-100" alt="Cat is sleeping">
           <div class="carousel-caption d-none d-md-block p-5">
-            <h1>Bootstrap 5 Carousel Function</h1>
+            <h1>Bootstrap 5 Carousel Component</h1>
             <p>How to include the Carousel Funtion in your website!</p>
             <a href="https://catmailohio-my.sharepoint.com/:u:/g/personal/oz870621_ohio_edu/ESDrDOHEp9FOkVXdExnErGsBkIyCxaCyx-suI4VZvWOuQA?e=AsoAEr" class="btn btn-lg btn-primary">
                 Download the code
@@ -198,7 +198,7 @@
 <div class="container ml-5 mr-5 p-5">
   <h2>Step 1. Basic Structure</b></h2>
   <div class="grid">
-    <div class="text g-col-4">
+    <div class="text g-col-4 mt-3 mb-5">
       <p>First, we need to create a basic structure for our carousel slider. Starting with a main div for the carousel, then add container class="carousel-inner", and three carousel items. Class="carousel-item active" will stand for the first slide, and then they will shop up in the order. After that, we need to link images inside each carousel item. Create a separate folder for your images. Place in folder "images”. To link images you will write img src=“folder name (images)/name of image”. Include your alt text and you have now linked your images.</p>
     </div>
     <div class="g-col-6">
@@ -210,7 +210,7 @@
 <div class="container ml-5 mr-5 p-5">
   <h2>Step 2. Arrows and Indicators</h2>
   <div class="grid">
-    <div class="text g-col-4">
+    <div class="text g-col-4 mt-3 mb-5">
       <p>We can now add two arrow buttons — next and previous slide. There must be a separate button element for each arrow. The same for indicators — class="сarousel-indicators", that indicate the number of images in the carousel. They will be at the bottom, and responsive to jump between slides. Be sure that you target these buttons properly to the carousel id, that you have in a parent div (for example carouselExampleSlidesOnly) inside data-bs-target.</p>
     </div>
     <div class="g-col-6">
@@ -222,7 +222,7 @@
 <div class="container ml-5 mr-5 p-5">
   <h2>Step 3. Caption and Button</h2>
   <div class="grid">
-    <div class="text g-col-4">
+    <div class="text g-col-4 mt-3 mb-5">
       <p>We also can add captions to each slide. In order to do that we need to add div class="сarousel-caption" under each image. Inside we can put the title, paragraph element, or even a button. Be sure you keep text and button inside captions div</p>
     </div>
     <div class="g-col-6">
@@ -236,7 +236,7 @@
 <div class="container ml-5 mr-5 p-5">
   <h2>Step 4. Additional options: Rotation Speed, Fade, Dark Mode</h2>
   <div class="grid">
-    <div class="text g-col-4">
+    <div class="text g-col-4 mt-3 mb-5">
       <p>There are some additional values and attributes for carousel in Bootstrap 5, that are easily accessible by changing attributes or changing the class name in the highest carousel div.  
       <br><br>
       In order to control the speed of the carousel, you will need to provide the data-interval attribute that tells how long a photo will be displayed. You will want to add an attribute of the highest div class — the first one that we used — data-bs-interval=“2000”. It can be just after the name of class. The higher the number the slower the rotation, the lower the number the faster it will rotate.
@@ -254,7 +254,7 @@
 <div class="container ml-5 mr-5 p-5">
   <h2>Step 5. Background Overlay</h2>
   <div class="grid">
-    <div class="text g-col-4">
+    <div class="text g-col-4 mt-3 mb-5">
       <p>If your image is bright and full of contrast and you need to use captions, use the background overlay is one of the option to make better readability of captions. In order to do that, we need to add overlay attribute to the carousel-item name, and add half-style, that help us to overlay. You can control opacity and change the overlaying color inside the half-style.</p>
     </div>
     <div class="g-col-6">
@@ -263,7 +263,7 @@
   </div>
 </div>
 
-<div class="">
+<div class="mt-5 mb-5">
   <div class="text-center">
     <h5>This project is done by Kristen Eads and Olena Zenchenko</h5>
   </div>
